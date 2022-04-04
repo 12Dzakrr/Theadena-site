@@ -1,0 +1,213 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* Hiasan */
+body p {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-family: 'Rubik', sans-serif;
+}
+
+.bg {
+  background: linear-gradient(111.12deg, #eba17e 14.45%, #e7d586 47.17%, #e2db7e 86.86%);
+  width: 100%;
+}
+
+.bg-1 {
+  background: rgb(42, 11, 43);
+  width: 100%;
+  color: white;
+}
+
+/* button */
+
+button {
+  background: transparent;
+  border: transparent;
+  padding: 8px 20px;
+  font-weight: 500;
+  color: rgb(59, 11, 73);
+
+  margin-left: 10px;
+}
+
+.instagram {
+  border: 1.5px solid rgb(216, 181, 27);
+  transition: 0.3s ease-in-out;
+}
+
+.shopee {
+  border: 1.5px solid rgb(245, 99, 42);
+  transition: 0.3s ease-in-out;
+}
+
+.instagram:hover {
+  background: rgb(216, 181, 27);
+  border: 1.5px solid rgb(216, 181, 27);
+  color: white;
+}
+
+.shopee:hover {
+  background: rgb(245, 99, 42);
+  border: 1.5px solid rgb(245, 99, 42);
+  color: white;
+}
+
+.tombol {
+  margin-left: auto;
+}
+/* end */
+
+/* Bagian-bagian */
+/* Produk awal */
+
+.foto-sabun {
+  background-color: rgb(241, 230, 180);
+  height: 100vh;
+}
+
+.product-awal {
+  background-color: #fffffe;
+}
+
+.foto-sabun img {
+  display: block;
+  width: 15rem;
+}
+
+.judul h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 70px;
+}
+
+.judul p {
+  font-weight: 500;
+}
+
+.unggulan .material-icons-outlined {
+  color: #f9ecfd;
+  font-size: 25px;
+  background-color: #97551e;
+  padding: 7px;
+  margin-bottom: 8px;
+  transition: 0.4s ease-in;
+}
+
+.unggulan .material-icons-outlined:hover {
+  color: #97551e;
+  background-color: transparent;
+}
+
+.unggulan-a,
+.unggulan-b,
+.unggulan-c {
+  border-left: 1px solid gray;
+  font-size: 14px;
+}
+
+.unggulan p {
+  margin-bottom: 3px;
+}
+
+.unggulan-c {
+  border-right: 1px solid gray;
+}
+
+/* Deskripsi */
+.foto-deskripsi img {
+  width: 20rem;
+}
+
+.tulisan-deskripsi .judul p {
+  font-weight: 500;
+}
+
+.keterangan-deskripsi p {
+  font-weight: 300;
+  color: #605563;
+}
+
+.Deskripsi .container-2 {
+  margin-top: 150px;
+}
+
+.container-2 .foto-deskripsi img {
+  justify-content: center;
+  margin-left: auto;
+}
+
+/* harga */
+.harga h3 {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.harga img {
+  display: block;
+  width: 20rem;
+  margin: 60px auto;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  .Deskripsi img,
+  .harga img {
+    width: 13rem;
+  }
+
+  .unggulan-a,
+  .unggulan-b,
+  .unggulan-c {
+    border: transparent;
+    margin-bottom: 40px;
+  }
+
+  .keterangan p {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .product-harga img {
+    width: 15rem;
+    margin-bottom: 15px;
+  }
+
+  .harga p {
+    margin: auto;
+  }
+
+  .foto-deskripsi img {
+    margin: auto !important;
+  }
+
+  .containerr .foto-deskripsi img {
+    margin-left: auto;
+  }
+
+  .product-awal .unggulan {
+    padding: 20px;
+  }
+
+  .tombol {
+    margin: auto;
+    justify-content: center;
+  }
+
+  .Perkenalan-sabun .judul h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .Perkenalan-sabun .judul p {
+    text-align: center;
+    margin-top: 50px;
+  }
+}

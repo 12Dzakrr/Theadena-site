@@ -1,0 +1,131 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* hiasan */
+
+body p {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-family: 'Rubik', sans-serif;
+}
+
+.bg-1 {
+  background: linear-gradient(111.12deg, #a26ee0 14.45%, #d27de7 47.17%, #e472d5 86.86%);
+  width: 100%;
+}
+
+.bg-2 {
+  background: linear-gradient(111.12deg, #6f4c99 14.45%, #774683 47.17%, #793d71 86.86%);
+  width: 100%;
+}
+
+/* button */
+.btn-galaxy {
+  color: #2c209b;
+  margin-top: 3px;
+  text-decoration: none;
+  padding: 4px;
+  text-align: start;
+  font-weight: 500;
+}
+
+.btn-galaxy-2 {
+  border: 2px transparent;
+  background: linear-gradient(111.12deg, #bf8cff 14.45%, #bb70d9 47.17%, #de7fe0 86.86%);
+  color: #ffffff;
+  border-radius: 10px;
+  margin-top: 3px;
+  text-decoration: none;
+  padding: 7px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-galaxy-2:hover {
+  border: 1px solid #9d39cf;
+  transition: 0.7s ease-in-out;
+}
+
+.btn-galaxy-2:active {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* foto-utama */
+.foto-utama img {
+  width: 100%;
+  display: block;
+}
+
+/* judul */
+.judul h1 {
+  color: #81399e;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.isi h5 {
+  font-family: 'Lato', sans-serif;
+}
+
+.paragraf .bold {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #461958;
+}
+/* container b */
+
+.container-b .blog-b-1,
+.container-b .blog-b-2 {
+  border-bottom: 1.5px solid #c7c2c2;
+}
+
+.container-b .isi h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.container-b .isi a {
+  font-size: 15px;
+  color: rgb(135, 44, 138);
+  text-decoration: none;
+}
+
+.container-b .isi a:hover {
+  text-decoration: underline;
+}
+
+.container-b .other {
+  border-bottom: 1.5px solid #a49b9b;
+}
+
+/* copyright */
+.copyright span {
+  font-size: 14px;
+  color: rgb(243, 38, 38);
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  body p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* .container-b {
+    display: none;
+  } */
+
+  .foto-utama img {
+    margin: auto;
+  }
+
+  .container-b {
+    border-left: transparent;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+/*  */

@@ -1,0 +1,297 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* Hiasan */
+.unggulan .material-icons-outlined {
+  font-size: 30px;
+}
+
+body p {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-family: 'Rubik', sans-serif;
+}
+
+.bg {
+  background: linear-gradient(111.12deg, #ebe07e 14.45%, #e7cd86 47.17%, #f7e0a0 86.86%);
+  width: 100%;
+}
+
+.bg-1 {
+  background: rgb(42, 11, 43);
+  width: 100%;
+  color: white;
+}
+
+/* <!-- Isi -- >  */
+.bagian-awal .judul {
+  font-size: 30px;
+  text-align: start;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.bagian-awal img {
+  width: 400px;
+}
+
+.footer p {
+  font-family: 'Lato', sans-serif;
+}
+
+.bagian-awal p {
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: auto;
+}
+/* Jenis */
+.gambar-product img {
+  width: 300px;
+}
+
+.jenis .keterangan h2 {
+  color: #696116;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.jenis .keterangan p {
+  color: #330b30;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.jenis .keterangan span {
+  font-weight: 500;
+  color: #86560d;
+}
+
+/* kandungan */
+
+.kandungan h2 {
+  color: #696116;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.kandungan p {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  color: #330b30;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.card {
+  margin-top: 30px;
+  border: none;
+}
+
+.kartu .card {
+  padding: 10px;
+  text-align: center;
+}
+
+.card p {
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+
+.card h5 {
+  margin-bottom: 3px;
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #4d103d;
+}
+
+.fa-3x {
+  color: #f5d681;
+  margin-top: 20px;
+}
+
+/* Klelebihan */
+.unggulan li {
+  list-style: none;
+  margin: 3px;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.4s ease-in-out;
+  justify-content: start;
+  font-size: 14px;
+  font-weight: 500;
+  flex-direction: column;
+}
+
+.unggulan p {
+  margin: 0;
+  line-height: 18px;
+}
+
+.unggulan span {
+  margin: 0 5px;
+}
+
+.kelebihan h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #8c86a7;
+  font-family: 'Lato', sans-serif;
+}
+
+.dua {
+  background-color: #f9f871;
+  color: #86560d;
+}
+
+.satu {
+  background-color: #ffc75f;
+  color: #ffffff;
+}
+
+.tiga {
+  background-color: #ff9671;
+  color: #4b4032;
+}
+
+.lima {
+  background-color: #ff6f91;
+  color: #fff9f5;
+}
+
+.empat {
+  background-color: #d65d81;
+  color: #ffeffc;
+}
+
+.unggulan li:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Pilian */
+.harga h2 {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.foto-harga img {
+  width: 100%;
+}
+
+.essense-harga p,
+.Toner-harga p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* button */
+
+button {
+  background: transparent;
+  border: transparent;
+  padding: 8px 20px;
+  font-weight: 500;
+  color: rgb(59, 11, 73);
+
+  margin-left: 10px;
+}
+
+.tokped {
+  border: 1.5px solid rgb(238, 189, 115);
+  transition: 0.3s ease-in-out;
+}
+
+.shopee {
+  border: 1.5px solid rgb(233, 114, 67);
+  transition: 0.3s ease-in-out;
+}
+
+.tokped:hover {
+  background: rgb(238, 189, 115);
+  border: 1.5px solid rgb(238, 189, 115);
+  color: white;
+}
+
+.shopee:hover {
+  background: rgb(233, 114, 67);
+  border: 1.5px solid rgb(233, 114, 67);
+  color: white;
+}
+
+.tombol {
+  margin-left: auto;
+}
+/* responsive */
+@media screen and (max-width: 576px) {
+  .bagian-awal img {
+    width: 70%;
+  }
+  .unggulan li {
+    padding: 8px 10px;
+    font-weight: 400;
+  }
+
+  .kartu .card h5 {
+    font-size: 15px;
+  }
+
+  .kartu .card p {
+    font-size: 13px;
+  }
+
+  .kandungan h2 {
+    font-size: 30px;
+  }
+
+  .foto-harga img {
+    width: 300px;
+  }
+
+  .gambar-product img {
+    width: 250px;
+    margin: auto;
+  }
+
+  /* end */
+}
+@media screen and (max-width: 768px) {
+  .bagian-awal img {
+    width: 80%;
+  }
+
+  .judul {
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+
+  .bagian-awal hr {
+    background: rgb(87, 16, 75);
+    margin: 20px auto;
+  }
+
+  .kelebihan h2,
+  .kelebihan p {
+    text-align: center;
+  }
+
+  .bagian-awal .judul {
+    text-align: center;
+    color: #38180b;
+    margin-bottom: 3px;
+  }
+}
